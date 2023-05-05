@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easter Basket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1 class="easterBasketLogo">Easter Basket </h1>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="files.php">File Management</a></li>
+            <li><a href="help.html">Help</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div style="position: relative; color: white;" class="content-help">
+        <h2>Contents</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="#description">Description</a></li>
+            <li class="list-group-item"><a href="#checklist">Checklist</a></li>
+            <li class="list-group-item"><a href="#css">CSS</a></li>
+            <li class="list-group-item"><a href="#usage">Usage</a></li>
+        </ul>
+
+        <h3 class="description">Description</h3>
+        <p>
+            Chami Senarath <br/>
+            CSC 468 - GUI Programming <br/>
+            Due: March 30, 2023
+        </p>
+        <h3 id="checklist">Checklist</h3>
+        <ul>
+            <input type="checkbox" id="option">
+            <label for="option"> *Grading tags completed </label>
+
+            <p> Undo/Redo pattern (tier-less)*	30 </p>
+            <input type="checkbox" id="undoredoOOP" name="undoredoOOP" value="1">
+            <label for="undoredoOOP"> Undo/redo OOP followed </label> <br>
+            <input type="checkbox" id="undoredoChange" name="undoredoChange" value="2">
+            <label for="undoredoChange"> Able to do at least 1 undo/redo for change </label> <br>
+            <label for="undoredoChangePreConfig"></label>
+            <input type="checkbox" id="undoredoChangePreConfig" name="undoredoChangePreConfig" value="3">
+            <label for="undoredoChange"> Able to do at least 1 undo/redo for 1 preconfigured change </label> <br>
+            <input type="checkbox" id="undoredoChange5" name="undoredoChange5" value="4">
+            <label for="undoredoChange5"> Able to do at least 5 undo/redo for change </label> <br>
+            <input type="checkbox" id="undoredoChange5PreConfig" name="undoredoChange5PreConfig" value="5">
+            <label for="undoredoChange5PreConfig"> Able to do at least 5 undo/redo for 1 preconfigured change </label> <br>
+
+            <p> 1.	Tier: Basic content	36 </p>
+            <input type="checkbox" id="3pages" name="3pages" value="1">
+            <label for="3pages"> All 3 pages present </label> <br>
+            <input type="checkbox" id="headerPos" name="headerPos" value="2">
+            <label for="headerPos"> Header in all pages in correct spot </label> <br>
+            <input type="checkbox" id="navbarPos" name="navbarPos" value="3">
+            <label for="navbarPos"> Nav bar in all pages in correct spot </label> <br>
+            <input type="checkbox" id="interactionButtons" name="interactionButtons" value="4">
+            <label for="interactionButtons"> All interaction buttons added to main page in correct spot </label> <br>
+            <input type="checkbox" id="defaultContent" name="defaultContent" value="5">
+            <label for="defaultContent"> Properly display the default content in main page in correct spot </label> <br>
+            <input type="checkbox" id="placeHolder" name="placeHolder" value="6">
+            <label for="placeHolder"> At minimum, a placeholder for file upload/load/download in file page in correct spot </label> <br>
+            <input type="checkbox" id="headings" name="headings" value="7">
+            <label for="headings"> All headings added to Help page in correct order </label> <br>
+            <input type="checkbox" id="helpPageContent" name="helpPageContent" value="8">
+            <label for="helpPageContent"> Help page content filled in </label> <br>
+            <input type="checkbox" id="helpPageStuff" name="helpPageStuff" value="9">
+            <label for="helpPageStuff"> Within page link help page working </label> <br>
+
+            <p> 2a. Basic application tasks	30 </p>
+            <input type="checkbox" id="changConfirmGoody" name="changConfirmGoody" value="1">
+            <label for="changConfirmGoody"> Able to change/confirm goody </label> <br>
+            <input type="checkbox" id="changeBasket" name="changeBasket" value="2">
+            <label for="changeBasket"> Able to change basket only </label> <br>
+            <input type="checkbox" id="newRow" name="newRow" value="3">
+            <label for="newRow"> New row still work </label> <br>
+            <input type="checkbox" id="deleteGoodies" name="deleteGoodies" value="4">
+            <label for="deleteGoodies"> Able to delete goodies properly </label> <br>
+
+            <p> 2b. CSS rules*	18 </p>
+            <input type="checkbox" id="background" name="background" value="1">
+            <label for="background"> Background color/image </label> <br>
+            <input type="checkbox" id="cssHeader" name="cssHeader" value="2">
+            <label for="cssHeader"> CSS header </label> <br>
+            <input type="checkbox" id="cssNavBar" name="cssNavBar" value="3">
+            <label for="cssNavBar"> CSS nav bar color/image </label> <br>
+            <input type="checkbox" id="cssaRule" name="cssaRule" value="4">
+            <label for="cssaRule"> CSS < a > rule </label> <br>
+            <input type="checkbox" id="contentBorder" name="contentBorder" value="5">
+            <label for="contentBorder"> Content border </label> <br>
+            <input type="checkbox" id="fontChange" name="fontChange" value="6">
+            <label for="fontChange"> Help heading font change </label> <br>
+
+            <p> 3a More advanced main page options *	16 </p>
+            <input type="checkbox" id="preConfigOps" name="preConfigOps" value="1">
+            <label for="preConfigOps"> Able to change to preconfigured options </label> <br>
+            <input type="checkbox" id="unaffected" name="unaffected" value="2">
+            <label for="unaffected"> Main content area unaffected by save, and stays on page </label> <br>
+
+            <p> 3b Tier: Files	40 </p>
+            <input type="checkbox" id="currContent" name="currContent" value="1">
+            <label for="currContent"> Able to save the current content (must show in file page) </label> <br>
+            <input type="checkbox" id="download1" name="download1" value="2">
+            <label for="download1"> Able to download at least one file (default is ok) </label> <br>
+            <input type="checkbox" id="downloadApp" name="downloadApp" value="3">
+            <label for="downloadApp"> Able to download an application generated file </label> <br>
+            <input type="checkbox" id="uploadFile" name="uploadFile" value="4">
+            <label for="uploadFile"> Able to upload a file </label> <br>
+            <input type="checkbox" id="redirect" name="redirect" value="5">
+            <label for="redirect"> Loading a file redirects back to the main page </label> <br>
+            <input type="checkbox" id="dispWithAppGen" name="dispWithAppGen" value="6">
+            <label for="dispWithAppGen"> Loading properly displays with app generated file </label> <br>
+            <input type="checkbox" id="fileManip" name="fileManip" value="7">
+            <label for="fileManip"> Able to save, download, upload, and load that same file </label> <br>
+
+            <p>4 Tier: Extensions 30</p>
+            <input type="checkbox" id="fancy">
+            <label for="fancy"> Extension 1 for 5 pts: Style using a CSS feature not discussed in class. I used hover pseudo-class and ::before pseudo-element for some fancy hover effects.
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before">Psuedo instructions.</a></label> <br>
+            <input type="checkbox" id="fancyback">
+            <label for="fancyback"> Extension 2 for 5 pts: Make a fancy page background. In the file management page, the background color are in gradient of two colors: #ffcccc and #ff99dd </label> <br>
+            <input type="checkbox" id="drop">
+            <label for="drop"> Extension 3 for 10 pts: Allow drag and drop to upload to the file management area. You can drag and drop files in the file management page. </label> <br>
+            <input type="checkbox" id="combo">
+            <label for="combo"> Extension 4 for 5 pts: Add standard form selections for goodies (e.g., radio buttons, combo box, etc.). I added a combo box for egg selection. </label> <br>
+            <input type="checkbox" id="extra">
+            <label for="extra"> Extension 5 for 5 pts: Make 3+ more goodies and/or baskets available. Created 3 extra egg selections for types of eggs and integrated them with the rest of the undo-redo code base. </label> <br>
+        </ul>
+        
+        <h3 id="css">CSS</h3>
+        <li>Background color/images</li>
+        <p>
+            Images are chosen from <a href="https://unsplash.com/">Unsplash</a> website where copyright free images are available for use.
+            <br>
+            They are being used in the index page and in the help page. For the file management page, color gradient is used.
+        </p>
+        <li>CSS nav bar animations</li>
+        <p>I used pseudo instruction in CSS to generate a underline when the nav bar content are being hovered.</p>
+
+        <h3 id="usage">Usage</h3>
+        <p>
+            On the main page, you can add new goodies and change baskets. You add a goody and then you confirm to really add it. You can also choose from one of the preconfigured baskets and goodies.
+            Once you have your prefered goody configuration, you can save the state with a prefered name. After being saved, they can be viewed on the file page.
+        </p>
+        <p>
+            The file page consists of uploading files, then loading and downloading. It also has a special feature of drag and drop section. The extension for files to be uploaded has to be .txt and it
+            is being checked.
+        </p>
+        <p>Load file does not work properly but the rest of the functionality is there. Too sleepy to fix it. XD</p>
+    </div>
+</body>
+</html>
+

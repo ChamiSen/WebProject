@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c21aeeab-a3c6-4a7c-80e8-be4b8a778da1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MRE6dzc7FVi1jKRoyefUh1SLHf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/UwAmp/www",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\7319139\Documents\CSC468\EasterBasket\PHP" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c21aeeab-a3c6-4a7c-80e8-be4b8a778da1" name="Changes" comment="" />
+      <created>1677721820468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677721820468</updated>
+      <workItem from="1677721821611" duration="9847000" />
+      <workItem from="1677734911063" duration="170000" />
+      <workItem from="1677735277881" duration="131000" />
+      <workItem from="1677797169167" duration="1235000" />
+      <workItem from="1677866687747" duration="2168000" />
+      <workItem from="1677871838646" duration="6964000" />
+      <workItem from="1678249792163" duration="175000" />
+      <workItem from="1678287124033" duration="680000" />
+      <workItem from="1678291385108" duration="1430000" />
+      <workItem from="1679355434384" duration="1612000" />
+      <workItem from="1679358839644" duration="5297000" />
+      <workItem from="1679973387534" duration="5473000" />
+      <workItem from="1679983960285" duration="1935000" />
+      <workItem from="1679986415670" duration="12000" />
+      <workItem from="1680006835415" duration="2355000" />
+      <workItem from="1680012004061" duration="602000" />
+      <workItem from="1680056552222" duration="4079000" />
+      <workItem from="1680090584233" duration="8810000" />
+      <workItem from="1680108723050" duration="2750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
